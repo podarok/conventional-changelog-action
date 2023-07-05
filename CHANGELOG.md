@@ -1,45 +1,53 @@
-## [3.9.9](https://github.com/TriPSs/conventional-changelog-action/compare/v3.9.8...v3.9.9) (2021-10-05)
+# [3.19.0](https://github.com/TriPSs/conventional-changelog-action/compare/v3.18.1...v3.19.0) (2023-06-22)
+
+
+### Features
+
+* Add 'infile' option ([a858fad](https://github.com/TriPSs/conventional-changelog-action/commit/a858fade68261d33b8c91977bbe3c77f1d39521d))
+
+
+
+## [3.18.1](https://github.com/TriPSs/conventional-changelog-action/compare/v3.18.0...v3.18.1) (2023-05-18)
 
 
 ### Bug Fixes
 
-* Try again with different node_modules ([9378b30](https://github.com/TriPSs/conventional-changelog-action/commit/9378b3051abbd2f793956f852cdc7bac0fea7d9c))
+* execute git config commands synchronously ([1607ac7](https://github.com/TriPSs/conventional-changelog-action/commit/1607ac70d5942487fb67e1d412d57868d8decca9))
 
 
 
-## [3.9.8](https://github.com/TriPSs/conventional-changelog-action/compare/v3.9.7...v3.9.8) (2021-10-05)
-
-
-### Bug Fixes
-
-* Downgraded the conventional packages ([052fce1](https://github.com/TriPSs/conventional-changelog-action/commit/052fce1f3fc33b9194f6e7ea5793691128ee732b))
-
-
-
-## [3.9.7](https://github.com/TriPSs/conventional-changelog-action/compare/v3.9.6...v3.9.7) (2021-10-05)
+# [3.18.0](https://github.com/TriPSs/conventional-changelog-action/compare/v3.17.2...v3.18.0) (2022-11-29)
 
 
 ### Bug Fixes
 
-* Release with all deps ([2b36c79](https://github.com/TriPSs/conventional-changelog-action/commit/2b36c79d01330e9272a6f28e9f019a7c6203425e))
+* bad reference ([a19765d](https://github.com/TriPSs/conventional-changelog-action/commit/a19765d093dc22d5007a1574c6db5d40be9ddf97))
+* output current version if there is no new ver ([b1e290f](https://github.com/TriPSs/conventional-changelog-action/commit/b1e290f44d9e4e0a29d536146cf1fb073172cf9d))
+
+
+### Features
+
+* add skip-tag to skip tagging a release ([22e862a](https://github.com/TriPSs/conventional-changelog-action/commit/22e862a0ab69410642c4182cd9ee27a23d8c63a0))
 
 
 
-## [3.9.6](https://github.com/TriPSs/conventional-changelog-action/compare/v3.9.5...v3.9.6) (2021-10-05)
-
-
-### Bug Fixes
-
-* Redeploy with src/action again ([8977e61](https://github.com/TriPSs/conventional-changelog-action/commit/8977e6168a89eec51d459921bc0a85f7aaa494c6))
-
-
-
-## [3.9.5](https://github.com/TriPSs/conventional-changelog-action/compare/v3.9.4...v3.9.5) (2021-10-05)
+## [3.17.2](https://github.com/TriPSs/conventional-changelog-action/compare/v3.17.1...v3.17.2) (2022-11-23)
 
 
 ### Bug Fixes
 
-* Retry again with the node_modules ([949ce5e](https://github.com/TriPSs/conventional-changelog-action/commit/949ce5e5a6447f5232585b381468821acbf713f2))
+* add testcase for new + pre-release ([fc4c16d](https://github.com/TriPSs/conventional-changelog-action/commit/fc4c16dd9b531599647b491bd1bbb118f6cd24c6))
+* honour pre-release flag for default version ([e63e00c](https://github.com/TriPSs/conventional-changelog-action/commit/e63e00c563bd7191db28f0e8c5308adc2bd840c6))
+* simplify logic fallback version logic, remove default from action.yaml ([ecddc26](https://github.com/TriPSs/conventional-changelog-action/commit/ecddc262291a3d768c04c52d31af23d1cf2e6d84))
+
+
+
+## [3.17.1](https://github.com/TriPSs/conventional-changelog-action/compare/v3.17.0...v3.17.1) (2022-11-09)
+
+
+### Bug Fixes
+
+* Updated `@actions/core` ([e36f42c](https://github.com/TriPSs/conventional-changelog-action/commit/e36f42c737692496073caba5e3f3a473226ce270)), closes [#182](https://github.com/TriPSs/conventional-changelog-action/issues/182)
 
 
 
